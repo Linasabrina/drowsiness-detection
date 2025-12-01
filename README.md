@@ -1,4 +1,4 @@
-# Driver Drowsiness Detection System with Gesture & Voice Control
+# Driver Drowsiness Detection System with Gesture Control
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green.svg)
@@ -92,8 +92,8 @@ Saat program berjalan:
 
 **Gestur Tangan** (Hanya aktif saat musik diputar)
 Arahkan tangan ke kamera:
-* ✋ Telapak Terbuka: Ganti lagu (Next shuffle).
-* ✊ Kepalan Tangan: Stop musik.
+* Telapak Terbuka: Ganti lagu (Next shuffle).
+* Kepalan Tangan: Stop musik.
 
 **Keyboard**
 * [ : Turunkan brightness (kecerahan) kamera.
