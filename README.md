@@ -74,14 +74,14 @@ pip install opencv-python dlib imutils scipy gTTS SpeechRecognition pygame media
 ### 4. Siapkan File Pendukung
 Agar program berjalan, kamu harus menyiapkan struktur folder dan file berikut di dalam folder proyek:
 * **Root Folder Proyek**
-    * main_script.py (File kode Python utamamu)
+    * Drowsiness_Detection.py (File kode Python utama)
     * shape_predictor_68_face_landmarks.dat (Download dari [sini](https://drive.google.com/drive/folders/1uMQpBDky9NCcCgfmOpDiQr5p-xttdvPU) dan ekstrak)
     * music (Buat folder baru bernama music)
        * Masukkan file lagu-lagu .mp3 favoritmu di sini.
 
 ### 5. Jalankan Program
 ```bash
-python main_script.py
+python Drowsiness_Detection.py
 ```
 
 ---
@@ -102,3 +102,15 @@ Arahkan tangan ke kamera:
 
 **Suara**
 Jika sistem bertanya "Mau aku putarkan musik?", jawablah dengan jelas "Ya", "Mau", atau "Oke" di dekat mikrofon untuk memutar musik.
+
+---
+
+## Struktur Proyek
+```bash
+├── music/
+│   ├── lagu1.mp3             # Playlist musik Anda
+│   └── lagu2.mp3
+├── Drowsiness_Detection.py   # Kode program utama
+├── shape_predictor_68...dat  # Model dlib landmarks
+└── README.md                 # File dokumentasi ini
+```
